@@ -15,7 +15,8 @@ from .utils import load_module, pil2tensor
 from .utility_nodes import load_images_from_url
 
 custom_nodes = folder_paths.get_folder_paths("custom_nodes")
-ip_adapter_dir_names = ["IPAdapter", "ComfyUI_IPAdapter_plus"]
+# ip_adapter_dir_names = ["IPAdapter", "ComfyUI_IPAdapter_plus"]
+ip_adapter_dir_names = ["IPAdapter", "ComfyUI_IPAdapter_plus_legacy_240214_6a411dc"] # IPAdapter 레거시 바라보도록 설정
 
 NODE_CLASS_MAPPINGS = {}
 NODE_DISPLAY_NAME_MAPPINGS = {}
@@ -37,9 +38,9 @@ try:
     print("Loaded IPAdapter nodes from", module_path)
 
     nodes: Dict = getattr(module, "NODE_CLASS_MAPPINGS")
-    IPAdapterApply = nodes.get("IPAdapterApply")
-    IPAdapterApplyEncoded = nodes.get("IPAdapterApplyEncoded")
-    IPAdapterModelLoader = nodes.get("IPAdapterModelLoader")
+    IPAdapterApply = nodes.get("IPAdapterApply_legacy_240214_6a411dc")
+    IPAdapterApplyEncoded = nodes.get("IPAdapterApplyEncoded_legacy_240214_6a411dc")
+    IPAdapterModelLoader = nodes.get("IPAdapterModelLoader_legacy_240214_6a411dc")
 
     # from IPAdapter_Plus
     def image_add_noise(image: torch.Tensor, noise: float):
@@ -268,16 +269,16 @@ try:
 
     NODE_CLASS_MAPPINGS.update(
         {
-            "AV_IPAdapter": AV_IPAdapter,
-            "AV_IPAdapterEncodeFromJson": AV_IPAdapterEncodeFromJson,
-            "AV_IPAdapterApplyEncoded": AV_IPAdapterApplyEncoded,
+            "AV_IPAdapter_legacy_240111_ccc62030": AV_IPAdapter,
+            "AV_IPAdapterEncodeFromJson_legacy_240111_ccc62030": AV_IPAdapterEncodeFromJson,
+            "AV_IPAdapterApplyEncoded_legacy_240111_ccc62030": AV_IPAdapterApplyEncoded,
         }
     )
     NODE_DISPLAY_NAME_MAPPINGS.update(
         {
-            "AV_IPAdapter": "IP Adapter Apply",
-            "AV_IPAdapterEncodeFromJson": "IP Adapter Encoder",
-            "AV_IPAdapterApplyEncoded": "IP Adapter Apply Encoded",
+            "AV_IPAdapter_legacy_240111_ccc62030": "IP Adapter Apply(legacy_240111_ccc62030)",
+            "AV_IPAdapterEncodeFromJson_legacy_240111_ccc62030": "IP Adapter Encoder(legacy_240111_ccc62030)",
+            "AV_IPAdapterApplyEncoded_legacy_240111_ccc62030": "IP Adapter Apply Encoded(legacy_240111_ccc62030)",
         }
     )
 
