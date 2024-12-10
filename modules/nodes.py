@@ -454,28 +454,28 @@ class AVCheckpointSave(CheckpointSave):
 
 
 NODE_CLASS_MAPPINGS = {
-    "AV_CheckpointModelsToParametersPipe": AVCheckpointModelsToParametersPipe,
-    "AV_PromptsToParametersPipe": AVPromptsToParametersPipe,
-    "AV_ParametersPipeToCheckpointModels": AVParametersPipeToCheckpointModels,
-    "AV_ParametersPipeToPrompts": AVParametersPipeToPrompts,
-    "AV_VAELoader": AVVAELoader,
-    "AV_LoraLoader": AVLoraLoader,
-    "AV_LoraListLoader": AVLoraListLoader,
-    "AV_LoraListStacker": AVLoraListStacker,
-    "AV_CheckpointMerge": AVCheckpointMerge,
-    "AV_CheckpointSave": AVCheckpointSave,
+    "AV_CheckpointModelsToParametersPipe_legacy_ccc62030": AVCheckpointModelsToParametersPipe,
+    "AV_PromptsToParametersPipe_legacy_ccc62030": AVPromptsToParametersPipe,
+    "AV_ParametersPipeToCheckpointModels_legacy_ccc62030": AVParametersPipeToCheckpointModels,
+    "AV_ParametersPipeToPrompts_legacy_ccc62030": AVParametersPipeToPrompts,
+    "AV_VAELoader_legacy_ccc62030": AVVAELoader,
+    "AV_LoraLoader_legacy_ccc62030": AVLoraLoader,
+    "AV_LoraListLoader_legacy_ccc62030": AVLoraListLoader,
+    "AV_LoraListStacker_legacy_ccc62030": AVLoraListStacker,
+    "AV_CheckpointMerge_legacy_ccc62030": AVCheckpointMerge,
+    "AV_CheckpointSave_legacy_ccc62030": AVCheckpointSave,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "AV_CheckpointModelsToParametersPipe": "Checkpoint Models to Pipe",
-    "AV_PromptsToParametersPipe": "Prompts to Pipe",
-    "AV_ParametersPipeToCheckpointModels": "Pipe to Checkpoint Models",
-    "AV_ParametersPipeToPrompts": "Pipe to Prompts",
-    "AV_VAELoader": "VAE Loader",
-    "AV_LoraLoader": "Lora Loader",
-    "AV_LoraListLoader": "Lora List Loader",
-    "AV_LoraListStacker": "Lora List Stacker",
-    "AV_CheckpointMerge": "Checkpoint Merge",
-    "AV_CheckpointSave": "Checkpoint Save",
+    "AV_CheckpointModelsToParametersPipe_legacy_ccc62030": "Checkpoint Models to Pipe (legacy_ccc62030)",
+    "AV_PromptsToParametersPipe_legacy_ccc62030": "Prompts to Pipe (legacy_ccc62030)",
+    "AV_ParametersPipeToCheckpointModels_legacy_ccc62030": "Pipe to Checkpoint Models (legacy_ccc62030)",
+    "AV_ParametersPipeToPrompts_legacy_ccc62030": "Pipe to Prompts (legacy_ccc62030)",
+    "AV_VAELoader_legacy_ccc62030": "VAE Loader (legacy_ccc62030)",
+    "AV_LoraLoader_legacy_ccc62030": "Lora Loader (legacy_ccc62030)",
+    "AV_LoraListLoader_legacy_ccc62030": "Lora List Loader (legacy_ccc62030)",
+    "AV_LoraListStacker_legacy_ccc62030": "Lora List Stacker (legacy_ccc62030)",
+    "AV_CheckpointMerge_legacy_ccc62030": "Checkpoint Merge (legacy_ccc62030)",
+    "AV_CheckpointSave_legacy_ccc62030": "Checkpoint Save (legacy_ccc62030)",
 }
 
 
