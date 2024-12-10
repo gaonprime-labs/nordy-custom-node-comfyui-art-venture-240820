@@ -54,13 +54,13 @@ class KSamplerAdvancedWithSharpness(KSamplerAdvanced):
 
 
 NODE_CLASS_MAPPINGS = {
-    "Fooocus_KSampler": KSamplerWithSharpness,
-    "Fooocus_KSamplerAdvanced": KSamplerAdvancedWithSharpness,
+    "Fooocus_KSampler_legacy_ccc62030": KSamplerWithSharpness,
+    "Fooocus_KSamplerAdvanced_legacy_ccc62030": KSamplerAdvancedWithSharpness,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Fooocus_KSampler": "KSampler Fooocus",
-    "Fooocus_KSamplerAdvanced": "KSampler Adv. Fooocus",
+    "Fooocus_KSampler_legacy_ccc62030": "KSampler Fooocus (legacy_ccc62030)",
+    "Fooocus_KSamplerAdvanced_legacy_ccc62030": "KSampler Adv. Fooocus (legacy_ccc62030)",
 }
 
 NODE_CLASS_MAPPINGS.update(EFFICIENCY_NODE_CLASS_MAPPINGS)

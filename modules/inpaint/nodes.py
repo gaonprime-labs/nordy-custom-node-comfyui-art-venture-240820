@@ -188,21 +188,21 @@ class OverlayInpaintedImage:
 
 
 NODE_CLASS_MAPPINGS = {
-    "AV_SAMLoader": SAMLoader,
-    "GetSAMEmbedding": GetSAMEmbedding,
-    "SAMEmbeddingToImage": SAMEmbeddingToImage,
-    "LaMaInpaint": LaMaInpaint,
-    "PrepareImageAndMaskForInpaint": PrepareImageAndMaskForInpaint,
-    "OverlayInpaintedLatent": OverlayInpaintedLatent,
-    "OverlayInpaintedImage": OverlayInpaintedImage,
+    "AV_SAMLoader_legacy_ccc62030": SAMLoader,
+    "GetSAMEmbedding_legacy_ccc62030": GetSAMEmbedding,
+    "SAMEmbeddingToImage_legacy_ccc62030": SAMEmbeddingToImage,
+    "LaMaInpaint_legacy_ccc62030": LaMaInpaint,
+    "PrepareImageAndMaskForInpaint_legacy_ccc62030": PrepareImageAndMaskForInpaint,
+    "OverlayInpaintedLatent_legacy_ccc62030": OverlayInpaintedLatent,
+    "OverlayInpaintedImage_legacy_ccc62030": OverlayInpaintedImage,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "AV_SAMLoader": "SAM Loader",
-    "GetSAMEmbedding": "Get SAM Embedding",
-    "SAMEmbeddingToImage": "SAM Embedding to Image",
-    "LaMaInpaint": "LaMa Remove Object",
-    "PrepareImageAndMaskForInpaint": "Prepare Image & Mask for Inpaint",
-    "OverlayInpaintedLatent": "Overlay Inpainted Latent",
-    "OverlayInpaintedImage": "Overlay Inpainted Image",
+    "AV_SAMLoader_legacy_ccc62030": "SAM Loader (legacy_ccc62030)",
+    "GetSAMEmbedding_legacy_ccc62030": "Get SAM Embedding (legacy_ccc62030)",
+    "SAMEmbeddingToImage_legacy_ccc62030": "SAM Embedding to Image (legacy_ccc62030)",
+    "LaMaInpaint_legacy_ccc62030": "LaMa Remove Object (legacy_ccc62030)",
+    "PrepareImageAndMaskForInpaint_legacy_ccc62030": "Prepare Image & Mask for Inpaint (legacy_ccc62030)",
+    "OverlayInpaintedLatent_legacy_ccc62030": "Overlay Inpainted Latent (legacy_ccc62030)",
+    "OverlayInpaintedImage_legacy_ccc62030": "Overlay Inpainted Image (legacy_ccc62030)",
 }

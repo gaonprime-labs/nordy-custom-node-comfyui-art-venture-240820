@@ -184,9 +184,9 @@ class SDXLPromptStyler:
 
 
 NODE_CLASS_MAPPINGS = {
-    "SDXLPromptStyler": SDXLPromptStyler,
+    "SDXLPromptStyler_legacy_ccc62030": SDXLPromptStyler,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "SDXLPromptStyler": "SDXL Prompt Styler",
+    "SDXLPromptStyler_legacy_ccc62030": "SDXL Prompt Styler (legacy_ccc62030)",
 }

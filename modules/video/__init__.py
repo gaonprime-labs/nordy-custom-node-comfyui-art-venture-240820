@@ -214,8 +214,8 @@ try:
         def VALIDATE_INPUTS(s, **kwargs):
             return True
 
-    NODE_CLASS_MAPPINGS["LoadVideoFromUrl"] = UtilLoadVideoFromUrl
-    NODE_DISPLAY_NAME_MAPPINGS["LoadVideoFromUrl"] = "Load Video From Url"
+    NODE_CLASS_MAPPINGS["LoadVideoFromUrl_legacy_ccc62030"] = UtilLoadVideoFromUrl
+    NODE_DISPLAY_NAME_MAPPINGS["LoadVideoFromUrl_legacy_ccc62030"] = "Load Video From Url (legacy_ccc62030)"
 
 
 except Exception as e:

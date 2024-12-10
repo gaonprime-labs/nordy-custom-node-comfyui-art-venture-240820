@@ -82,8 +82,8 @@ try:
             fst_half_end = snd_half_start - 1
             return (frame_number, fst_half_end, snd_half_start, frame_number - 1)
 
-    NODE_CLASS_MAPPINGS["AnimateDiffFrameCalculator"] = AnimateDiffFrameCalculator
-    NODE_DISPLAY_NAME_MAPPINGS["AnimateDiffFrameCalculator"] = "Animate Diff Frame Calculator"
+    NODE_CLASS_MAPPINGS["AnimateDiffFrameCalculator_legacy_ccc62030"] = AnimateDiffFrameCalculator
+    NODE_DISPLAY_NAME_MAPPINGS["AnimateDiffFrameCalculator_legacy_ccc62030"] = "Animate Diff Frame Calculator (legacy_ccc62030)"
 
 except Exception as e:
     print(e)

@@ -354,19 +354,19 @@ class AVControlNetEfficientLoaderAdvanced(ControlNetApplyAdvanced):
 
 
 NODE_CLASS_MAPPINGS = {
-    "AV_ControlNetLoader": AVControlNetLoader,
-    "AV_ControlNetEfficientLoader": AVControlNetEfficientLoader,
-    "AV_ControlNetEfficientLoaderAdvanced": AVControlNetEfficientLoaderAdvanced,
-    "AV_ControlNetEfficientStacker": AVControlNetEfficientStacker,
-    "AV_ControlNetEfficientStackerSimple": AVControlNetEfficientStackerSimple,
-    "AV_ControlNetPreprocessor": AV_ControlNetPreprocessor,
+    "AV_ControlNetLoader_legacy_ccc62030": AVControlNetLoader,
+    "AV_ControlNetEfficientLoader_legacy_ccc62030": AVControlNetEfficientLoader,
+    "AV_ControlNetEfficientLoaderAdvanced_legacy_ccc62030": AVControlNetEfficientLoaderAdvanced,
+    "AV_ControlNetEfficientStacker_legacy_ccc62030": AVControlNetEfficientStacker,
+    "AV_ControlNetEfficientStackerSimple_legacy_ccc62030": AVControlNetEfficientStackerSimple,
+    "AV_ControlNetPreprocessor_legacy_ccc62030": AV_ControlNetPreprocessor,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "AV_ControlNetLoader": "ControlNet Loader",
-    "AV_ControlNetEfficientLoader": "ControlNet Loader",
-    "AV_ControlNetEfficientLoaderAdvanced": "ControlNet Loader Adv.",
-    "AV_ControlNetEfficientStacker": "ControlNet Stacker Adv.",
-    "AV_ControlNetEfficientStackerSimple": "ControlNet Stacker",
-    "AV_ControlNetPreprocessor": "ControlNet Preprocessor",
+    "AV_ControlNetLoader_legacy_ccc62030": "ControlNet Loader (legacy_ccc62030)",
+    "AV_ControlNetEfficientLoader_legacy_ccc62030": "ControlNet Loader (legacy_ccc62030)",
+    "AV_ControlNetEfficientLoaderAdvanced_legacy_ccc62030": "ControlNet Loader Adv. (legacy_ccc62030)",
+    "AV_ControlNetEfficientStacker_legacy_ccc62030": "ControlNet Stacker Adv. (legacy_ccc62030)",
+    "AV_ControlNetEfficientStackerSimple_legacy_ccc62030": "ControlNet Stacker (legacy_ccc62030)",
+    "AV_ControlNetPreprocessor_legacy_ccc62030": "ControlNet Preprocessor (legacy_ccc62030)",
 }
